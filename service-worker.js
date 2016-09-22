@@ -2,7 +2,7 @@
 
 /* eslint-env browser, serviceworker */
 
-importScripts('./scripts/analytics.js');
+//importScripts('./scripts/analytics.js');
 
 //self.analytics.trackingId = 'UA-77119321-2';
 
