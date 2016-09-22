@@ -29,6 +29,7 @@ self.addEventListener('push', function(event) {
     Promise.all([
       self.registration.showNotification(
         notificationTitle, notificationOptions)
+        //,self.analytics.trackEvent('push-received')
     ])
   );
 });
