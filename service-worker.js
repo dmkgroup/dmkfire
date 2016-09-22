@@ -4,13 +4,13 @@
 
 importScripts('./scripts/analytics.js');
 
-self.analytics.trackingId = 'UA-77119321-2';
+//self.analytics.trackingId = 'UA-77119321-2';
 
 self.addEventListener('push', function(event) {
   console.log('Received push');
   let notificationTitle = 'Hello';
   const notificationOptions = {
-    body: 'Thanks for sending this push msg.',
+    body: 'This is send for My Notifications',
     icon: './images/logo-192x192.png',
     badge: './images/logo-72x72.png',
     tag: 'simple-push-demo-notification',
