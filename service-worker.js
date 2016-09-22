@@ -28,8 +28,7 @@ self.addEventListener('push', function(event) {
   event.waitUntil(
     Promise.all([
       self.registration.showNotification(
-        notificationTitle, notificationOptions),
-      self.analytics.trackEvent('push-received')
+        notificationTitle, notificationOptions)
     ])
   );
 });
